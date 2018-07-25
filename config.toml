@@ -1,0 +1,34 @@
+baseURL = "https://blog.pwne.rs/"
+languageCode = "en-gb"
+title = "Pwners Blog"
+theme = "potato-dark"
+
+## Site Settings
+[params]
+    author = "Rob W"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    twitter = "rob_pwners"
+    github = "rob-pwners"
+    ga_api_key = "UA-122883309-1"
+    # Logo image. This is displayed ogp image.
+    #logo = "/path/to/logo"
+    favicon = "/img/favicon.ico"
+
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    identifier = "about"
+#    weight = 200
+#    url = "/about/"
+
+
+
+
