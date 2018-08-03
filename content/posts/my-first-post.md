@@ -7,4 +7,3 @@ draft: false
 Hey all,
 
 Just decided to move off of Ghost and start blogging with Hugo. I will eventually migrate all my blog contents over here but in the meantime, enjoy this single static page. :)
-
