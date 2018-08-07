@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.pwne.rs/posts/my-first-post/</loc>
-    <lastmod>2018-07-25T10:30:10+01:00</lastmod>
+    <loc>https://blog.pwne.rs/post/my-first-post/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,14 +13,14 @@
   </url>
   
   <url>
-    <loc>https://blog.pwne.rs/posts/</loc>
-    <lastmod>2018-07-25T10:30:10+01:00</lastmod>
+    <loc>https://blog.pwne.rs/post/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.pwne.rs/</loc>
-    <lastmod>2018-07-25T10:30:10+01:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

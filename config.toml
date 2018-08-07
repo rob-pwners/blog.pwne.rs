@@ -1,34 +1,23 @@
-baseURL = "https://blog.pwne.rs/"
-languageCode = "en-gb"
+baseurl = "https://blog.pwne.rs/"
+languageCode = "en-us"
 title = "Pwners Blog"
-theme = "potato-dark"
+theme = "hello-friend"
+#copyright = ""
+paginate = 5
 
-## Site Settings
 [params]
-    author = "Rob W"
-    dateformat = "Jan 2, 2006"
-    highlightjs = true
-    highlightjsstyle = "github"
-    twitter = "rob_pwners"
-    github = "rob-pwners"
-    ga_api_key = "UA-122883309-1"
-    # Logo image. This is displayed ogp image.
-    #logo = "/path/to/logo"
-    favicon = "/img/favicon.ico"
+  subtitle = "My Occasional Ramblings"
+#  favicon = "/img/favicon.ico"
+# [params.logo]
+#   path = "/img/logo.png"
+#   alt = "Pwners Blog"
 
-
-## Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-#[[menu.main]]
-#    name = "About"
+#[menu]
+#  [[menu.main]]
 #    identifier = "about"
-#    weight = 200
-#    url = "/about/"
-
-
-
-
+#    name = "About"
+#    url = "/about"
+#  [[menu.main]]
+#    identifier = "showcase"
+#    name = "Showcase"
+#    url = "/showcase"

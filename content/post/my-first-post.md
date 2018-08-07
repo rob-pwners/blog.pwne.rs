@@ -1,8 +1,10 @@
----
-title: "My First Post"
-date: 2018-07-25T10:30:10+01:00
-draft: false
----
++++
+title = "My First Post"
+date = "2018-07-25"
+draft =  false
+author = "Rob"
+description = "A brief introduction whilst I try to convert my old blog to Hugo."
++++
 
 Hey all,
 

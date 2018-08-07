@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pwners Blog</title>
-    <link>https://blog.pwne.rs/posts/</link>
+    <link>https://blog.pwne.rs/post/</link>
     <description>Recent content in Posts on Pwners Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 25 Jul 2018 10:30:10 +0100</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.pwne.rs/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.pwne.rs/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://blog.pwne.rs/posts/my-first-post/</link>
-      <pubDate>Wed, 25 Jul 2018 10:30:10 +0100</pubDate>
+      <link>https://blog.pwne.rs/post/my-first-post/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.pwne.rs/posts/my-first-post/</guid>
+      <guid>https://blog.pwne.rs/post/my-first-post/</guid>
       <description>Hey all,
 Just decided to move off of Ghost and start blogging with Hugo. I will eventually migrate all my blog contents over here but in the meantime, enjoy this single static page. :)</description>
     </item>
