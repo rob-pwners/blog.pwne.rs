@@ -1,0 +1,14 @@
+install:
+- wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+- sudo dpkg -i /tmp/hugo.deb
+
+script:
+- hugo -t potato-dark
+
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: "blog.pwne.rs"
+  skip_cleanup: true
+  region: "na-east-1"
