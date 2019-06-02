@@ -3,7 +3,7 @@ install:
 - sudo dpkg -i /tmp/hugo.deb
 
 script:
-- hugo -t potato-dark
+- hugo -t hello-friend
 
 deploy:
   provider: s3
