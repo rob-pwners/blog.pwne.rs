@@ -12,3 +12,4 @@ deploy:
   bucket: "blog.pwne.rs"
   skip_cleanup: true
   region: "us-east-1"
+  local_dir: "public"
