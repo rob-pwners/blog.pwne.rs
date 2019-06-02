@@ -11,4 +11,4 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   bucket: "blog.pwne.rs"
   skip_cleanup: true
-  region: "na-east-1"
+  region: "us-east-1"
