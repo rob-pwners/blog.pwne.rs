@@ -1,12 +1,18 @@
 // Toggle theme
 
-const getTheme = localStorage.getItem('theme')
-const themeToggle = document.querySelector('.theme-toggle')
-const isDark = getTheme === 'dark'
+const getTheme = window.localStorage && window.localStorage.getItem("theme");
+const themeToggle = document.querySelector(".theme-toggle");
+const isDark = getTheme === "dark";
 
-document.body.classList.toggle('dark-theme', isDark)
+if (getTheme !== null) {
+  document.body.classList.toggle("dark-theme", isDark);
+}
 
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme')
-  localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light')
-})
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+  window.localStorage &&
+    window.localStorage.setItem(
+      "theme",
+      document.body.classList.contains("dark-theme") ? "dark" : "light",
+    );
+});

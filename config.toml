@@ -1,24 +1,48 @@
-baseurl = "https://blog.pwne.rs/"
+baseurl = "/"
 languageCode = "en-us"
-title = "Pwners Blog"
 theme = "hello-friend"
-#copyright = ""
 paginate = 5
 
 [params]
-  subtitle = "My Occasional Ramblings"
-  twitter = "rob_pwners"
-#  favicon = "/img/favicon.ico"
-# [params.logo]
-#   path = "/img/logo.png"
-#   alt = "Pwners Blog"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Show reading time in minutes for posts
+  showReadingTime = true
 
-#[menu]
-#  [[menu.main]]
-#    identifier = "about"
-#    name = "About"
-#    url = "/about"
-#  [[menu.main]]
-#    identifier = "showcase"
-#    name = "Showcase"
-#    url = "/showcase"
+[languages]
+  [languages.en]
+    title = "Pwners Blog"
+    subtitle = "My Occasional Ramblings"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "Pwners Blog"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about"
+#      [[languages.en.menu.main]]
+#        identifier = "showcase"
+#        name = "Showcase"
+#        url = "/showcase"
