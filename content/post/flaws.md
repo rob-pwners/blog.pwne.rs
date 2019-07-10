@@ -2,9 +2,12 @@
 title = "flaws.cloud Writeup"
 date = 2018-08-08T00:41:06+01:00
 draft = false
-author = "Rob"
-description = "Steps and commands used to test AWS services. Specifically, the [flaws.cloud](http://flaws.cloud) challenges."
+author = "Rob W"
+description = "Steps and commands used to solve the [flaws.cloud]http://flaws.cloud) challenges."
 +++
+
+In this post I have inserted the commands and some information used to complete the flaws.cloud challenges.
+<!--more-->
 
 ## Level1
 Find the region of s3 bucket:
